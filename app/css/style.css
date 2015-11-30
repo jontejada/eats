@@ -1,3 +1,11 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
 #hero {
 	position:absolute;
 	right:0;
@@ -8,27 +16,63 @@
 	background-repeat: no-repeat;
 }
 
+#info {
+	position: absolute;
+	top: 400px;
+	left: 0;
+	
+}
+
+.para {
+	width:25%;
+	text-align: justify;
+	float:left;
+	padding:35px;
+}
+
+i {
+	margin: 0 12px 0 0;
+}
+
 header {
 	position:absolute;
 	right:0;
 	left:0;
-	height:50px;
 	top:0;
 	background-color: rgb(5,5,5);
 	background-color: rgba(5,5,5,0.3);
 	color: white;
+	padding:15px;
+	font-size: 170%;
+	font-weight: lighter;
+	text-shadow: 0 0 8px black;
 }
 
 footer {
 	position:absolute;
 	right:0;
 	left:0;
-	height:50px;
 	bottom:0;
 	background-color: rgb(0,0,0);
 	color: white;
+	text-align: center;
+	padding:15px;
 }
 
 h1 {
 	color: white;
+	text-align: center;
+	line-height: 400px;
+	font-size: 300%;
+	text-shadow: 0 0 20px black;
+}
+
+button {
+	position: absolute;
+	left:45%;
+	top: 300px;
+}
+
+span {
+	margin: 0 40px;
 }
