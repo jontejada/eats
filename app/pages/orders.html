@@ -10,18 +10,31 @@
 	<div id='content'>
 		<div id='left'>
 			<div id='menu'>
-				burgers!
+				<select size='8'>
+					<optgroup class='burger' label='Burgers'>
+<!-- 						<option value='{"name":"Cheeseburger","price":10.99}'>Cheeseburger 10.99</option>
+						<option>Hamburger 8.99</option>
+ -->					</optgroup>
+					<optgroup class='pizza' label='Pizza'>
+<!-- 						<option>Cheese Pizza 9.99</option>
+						<option>Pepperoni Pizza 11.99</option>
+ -->					</optgroup>
+				</select>
 			</div>
 			<div id='add'>
-				Quantity
-				<button>Add Item</button>
+				<label for ='quant'>Quantity</label><br>
+				<input id='quant' type="number" min='0' value='1' step='1'>
+				<button id='add_button'>Add Item</button>
 			</div>
 			<div id='customer_info'>
-				Name
-				Phone Number
-				Address
+				<label for ='name'>Name</label><br>
+				<input class='cust' id='name' type="text" placeholder='Kyle Coberly'>
+				<label for ='name'>Phone Number</label><br>
+				<input class='cust' id='phone' type="text" placeholder='7202574330'>
+				<label for ='name'>Address</label><br>
+				<input class='cust' id='address' type="text" placeholder='16 Rockaway Ave'>
 			</div>
-			<button id='deliver'>
+			<button id='deliver_button'>
 				Deliver It!
 			</button>
 		</div>
@@ -51,5 +64,8 @@
 		</div>
 	</div>
 	<footer>&copy; Galvanize, 2015<span>&#9884;</span>Denver, Colorado</footer>
+	
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js' charset='utf-8'></script>
+<script src='../js/script.js'></script>
 </body>
 </html>

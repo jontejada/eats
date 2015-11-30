@@ -19,7 +19,7 @@ header {
 	padding:15px;
 	font-size: 170%;
 	font-weight: lighter;
-	text-shadow: 0 0 8px black;
+	text-shadow: 0 0 8px rgba(5,5,5,0.5);
 }
 
 footer {
@@ -50,16 +50,16 @@ footer > span {
 	top:100px;
 	left:10%;
 	width:45%;
-	height:600px;
-	background-color: rgba(0,0,0,0.1);
-}
+	height:500px;
+/*	background-color: rgba(0,0,0,0.1);
+*/}
 
 #right {
 	position:absolute;
 	top:100px;
 	left:60%;
 	width:30%;
-	height:600px;
+	height:500px;
 	background-color: white;
 	padding-top: 10px
 }
@@ -99,6 +99,68 @@ footer > span {
 
 #content {
 	margin-bottom: 100px;
-	height:670px;
-
+	height:570px;
 }
+
+select {
+	width: 100%;
+	font-size: 120%;
+}
+
+option {
+	padding: 10px;
+}
+
+select:focus {
+  outline: none
+}
+
+option:checked {
+    box-shadow: 0 0 10px 100px #BDC7DC inset;
+}
+
+#quant {
+	width:40px;
+	font-size: 120%;
+}
+
+label {
+/*	display:block;
+*/	font-size: 12px;
+	font-style: italic;
+}
+
+#menu {
+	margin-bottom: 15px;
+}
+
+#add_button {
+	background: #5973A6;
+	width:120px;
+	height: 40px;
+	border: none;
+	border-radius: 1px;
+	color: white;
+	font-size: 100%;
+	margin-left:20px;
+	box-shadow: 1px 1px 6px rgba(5,5,5,0.5);
+}
+#deliver_button {
+	background: #59A673;
+	width:100%;
+	height: 40px;
+	border: none;
+	border-radius: 1px;
+	color: white;
+	font-size: 100%;
+	box-shadow: 1px 1px 6px rgba(5,5,5,0.5);
+}
+
+.cust {
+	width:99%;
+	font-size: 120%;
+	height: 28px;
+	background-color: #FAFFBD;
+	margin-bottom: 10px;
+}
+
