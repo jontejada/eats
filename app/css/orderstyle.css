@@ -36,10 +36,10 @@ footer {
 h1 {
 	color: white;
 	text-align: center;
-	line-height: 350px;
+	line-height: 100px;
 	font-size: 300%;
-	text-shadow: 0 0 20px black;
-}
+/*	text-shadow: 0 0 20px black;
+*/}
 
 footer > span {
 	margin: 0 40px;
@@ -82,8 +82,9 @@ footer > span {
 #totals_values {
 	position: absolute;
 	bottom: 15px;
-	right:5px;
+	right:18px;
 	width:60px;
+	text-align: right;
 }
 
 .a_left {
@@ -164,3 +165,15 @@ label {
 	margin-bottom: 10px;
 }
 
+#overlay {
+	position: absolute;
+	top:25%;
+	left:25%;
+	width:50%;
+	height:50%;
+	z-index: 10;
+	background-color: #5973A6;
+	display:none;
+	border-radius: 10px;
+	box-shadow: 0 0 100px #5973A6,0 0 100px #5973A6;
+}
